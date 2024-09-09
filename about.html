@@ -61,7 +61,7 @@
 						<a class="nav-link" href="index.html#contact">Contact</a>
 					</li>
 				</ul>
-				<a href="/#services" class="btn btn-outline-dark">SERVICES</a>
+				<a href="index.html#services" class="btn btn-outline-dark">SERVICES</a>
 			</div>
 			<div class="theme-switch-wrapper">
 				<label class="theme-switch" for="checkbox">
@@ -312,10 +312,12 @@
 
 		});
 	</script>
-	<script>
-		function myFunction(x) {
-		  x.classList.toggle("change");
-		}
+	<script>	
+		$('.navbar-nav a').on('click', function() {
+        if($('.navbar-toggler').is(':visible')) {
+            $('.navbar-collapse').collapse('hide');
+        }
+    });
 	</script>
 </body>
 
