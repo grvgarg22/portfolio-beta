@@ -277,7 +277,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
   #work .row .card .btn {font-size: 0.75rem; letter-spacing: 0; padding: 0.5rem 0.75rem;}
 
   #reviews .card {width: 90%; margin: 2rem auto; padding: 1rem; height: 30rem;}
-  #reviews img {width: 100%; float: left; margin-right: 0; display: none;}
+  #reviews .card > .card-img-top {width: 100%; float: left; margin-right: 0; display: none;}
   #reviews .carousel .carousel-indicators {bottom: -3rem;}
 
 }
