@@ -85,7 +85,7 @@
   transform: translate(0, -11px) rotate(45deg);
 }
 
-nav .theme-switch-wrapper {position:absolute; right: 12rem; top: 1.75rem;}
+nav .theme-switch-wrapper {position:absolute; right: 4rem; top: 1.75rem;}
 nav .theme-switch-wrapper .theme-switch {display: inline-block; height: 25px; position: relative; width: 52px;}
 nav .theme-switch-wrapper .theme-switch input {display:none;}
 nav .theme-switch-wrapper .slider {background-color: var(--theme-slider); bottom: 0; cursor: pointer; left: 0; position: absolute; right: 0; top: 0; transition: .4s;}
