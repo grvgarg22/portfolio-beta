@@ -266,12 +266,12 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
   #about .card-body {padding: 5rem 2rem;}
 
   .section {padding: 5rem 1rem;}
-  .section-title {font-size: 1.25rem; margin-bottom: 2rem; padding: 0;}
+  .section-title {font-size: 1.5rem; margin-bottom: 2rem; padding: 0;}
   #skills .row {width: 100%;}
   #skills .card {width: 95%; margin: 1.5rem auto; padding: 1rem 0.5rem;}
   #skills img {width: 25%;margin: 1rem 0rem;}
   #skills .card .card-body {padding: 0;}
-  #skills .card .card-title, #services .card .card-title {font-size: 1rem;}
+  #skills .card .card-title, #services .card .card-title {font-size: 1.2rem;}
   #services .card {width: 100%;}
 
   #work.section {padding: 5rem 1rem;}
