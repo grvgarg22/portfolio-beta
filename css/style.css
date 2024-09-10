@@ -200,7 +200,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 #work .row .card { border: none; background-color: transparent; margin: 2rem; padding: 0.5rem; transition: linear 500ms; border-radius: 0; display: flex; justify-content: space-evenly; align-items: flex-start; flex-wrap: nowrap; flex-direction: column;}
 #work .row .card .card-body {padding: 0rem 0 0.5rem 0; margin: 1rem;}
 #work .row .card>a { text-decoration: none; transition: linear 0.5s; margin: 1rem;}
-#work .row .card .card-title {font-size: 1.15rem; font-weight: 700; color: var(--heading-color); text-transform: uppercase; font-style: italic; letter-spacing: 3px;}
+#work .row .card .card-title {font-size: 1.15rem; font-weight: 700; color: var(--heading-color); text-transform: uppercase; letter-spacing: 3px;}
 #work .row .card p { color: var(--body-color); font-weight: 300;}
 
 #work .modal.fade {-webkit-backdrop-filter: blur(23px); backdrop-filter: blur(23px);}
@@ -249,11 +249,12 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 
 @media only screen and (max-width: 470px) { 
 
+  .no-pad {padding: 0;}
+  .navbar {padding: 0;}
   .navbar .show .btn-outline-dark {margin-bottom: 2rem;}
   .navbar-toggler:focus {box-shadow: none;}
-  .navbar-toggler {border: none; width: auto; padding: 5px 0;}
-  nav .theme-switch-wrapper {right: 6rem;}
-
+  .navbar-toggler {border: none; width: auto; padding: 5px 0; margin-right: 1rem;}
+  nav .theme-switch-wrapper {right: 5rem;}
 
   #hero .strip-light, #hero .strip-dark {width: 65px; bottom: 65%;}
   #hero .profile {margin: 5rem 1rem 1rem 1rem;}
@@ -268,6 +269,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
   #skills .card {width: 95%; margin: 1.5rem auto; padding: 1rem 0.5rem;}
   #skills img {width: 35%;margin: 1rem 0rem;}
   #skills .card .card-body {padding: 0;}
+  #services .card {width: 100%;}
 
   #work.section {padding: 5rem 1rem;}
   #work .row {width: 100%; padding: 0rem 0;}
