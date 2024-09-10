@@ -263,6 +263,8 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
   #hero .btn-outline-dark {font-size: 0.7rem; padding: .5rem 0.7rem; margin: 2rem 0.5rem 0.5rem;}
   #hero .scroll {bottom: 3rem;}
   
+  #about .card-body {padding: 5rem 2rem;}
+
   .section {padding: 5rem 1rem;}
   .section-title {font-size: 1.75rem; margin-bottom: 2rem; padding: 0 1rem;}
   #skills .row {width: 100%;}
@@ -278,7 +280,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
   #work .row .card .card-body {margin: 1rem 0;}
   #work .row .card .btn {font-size: 0.75rem; letter-spacing: 0; padding: 0.5rem 0.75rem;}
 
-  #reviews .card {width: 90%; margin: 2rem auto; padding: 1rem; height: 30rem;}
+  #reviews .card {width: 90%; margin: 2rem auto; padding: 1rem; height: 33rem;}
   #reviews .card > .card-img-top {width: 100%; float: left; margin-right: 0; display: none;}
   #reviews .carousel .carousel-indicators {bottom: -3rem;}
 
