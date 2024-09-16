@@ -170,7 +170,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 #services {background-image: var(--bg-image); /* background-image: linear-gradient(225deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);*/ background-size: cover; background-attachment: fixed;}
 #services:after {position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.76); }
 #services .row {width: 95%; margin: auto;}
-#services .card {width: 90%; border: 1px solid transparent; margin: 1.5rem auto; padding: 3rem 1.5rem; background: var(--card-bg); border-image: var(--card-border); backdrop-filter: blur(36px); border-radius: 0;}
+#services .card {width: 90%; height: 35rem; border: 1px solid transparent; margin: 1.5rem auto; padding: 3rem 1.5rem; background: var(--card-bg); border-image: var(--card-border); backdrop-filter: blur(36px); border-radius: 0;}
 #services .card .card-head {display: flex; flex-direction: column; flex-wrap: wrap; justify-content: flex-start; align-items: center; align-content: space-around; margin-bottom: 1rem;}
 #services .card .card-title { font-weight: 700; color: var(--heading-color); font-size: 1.2rem; margin: 0; text-transform: uppercase; letter-spacing: 1px;}
 #services .card .card-body {padding: 1rem;}
@@ -178,7 +178,6 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 #services .card ul li {color: var(--body-color); text-align: center; margin: 0.5rem 0.5rem 0 0; padding: 5px 10px; font-weight: 300;}
 #services svg { width: 5rem; margin: 0rem 0rem 2rem 0rem; fill: var(--heading-color)}
 #services img {width: 35%; margin: 0rem 0rem 2rem 0rem;}
-
 
 /********** skills frame *****************/
 #skills {background-image: var(--bg-image); /* background-image: linear-gradient(225deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);*/ background-size: cover; background-attachment: fixed;}
@@ -207,21 +206,25 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 #work .modal .section-title {font-size: 2rem; margin-bottom: 0;}
 #work .modal .modal-content {color: var(--body-color); border: 1px solid var(--modal-border); background-image: url(../img/gen-bg.jpg); background-size: cover;}
 #work .modal .modal-content .modal-header {display: block; color: var(--heading-color); text-align: center; background-color: var(--modal-bg); border: none; padding: 4rem 4rem 1.5rem; -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);}
-#work .modal .modal-content .modal-header > p {margin: 1rem auto; letter-spacing: 1px; text-transform: uppercase;}
-#work .modal .modal-content .modal-header > p span {margin: 0.5rem; font-size: 1rem; font-weight: 500;}
+#work .modal .modal-content .modal-header > div {margin: 1rem auto; letter-spacing: 1px; text-transform: uppercase; display: flex; flex-direction: row; flex-wrap: wrap; align-content: space-between; align-items: center; justify-content: center;}
+#work .modal .modal-content .modal-header > div span {margin: 0.5rem; font-size: 1rem; font-weight: 500;}
+#work .modal .modal-content .modal-header .btn-close {position: absolute; right: 2rem; top: 2rem; color: var(--btn-color);}
 #work .modal .modal-content .modal-body {overflow-y: auto; -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); background-color: var(--modal-bg);}
 #work .modal .modal-content .row {width: 100%; padding: 1rem;}
 #work .modal .modal-content .card {background-color: none; margin: 0; border: none !important; display: block;}
 #work .modal .modal-content .card-header {font-size: 1.15rem; font-weight: 700; color: var(--heading-color); text-transform: uppercase; background: none; border: none;}
-#work .modal .modal-content .card-body {width: 90%;}
-#work .modal .modal-content .sub-sec {margin-bottom: 2rem;}
-#work .modal .modal-content .sub-sec div {margin: 1rem 0;}
-#work .modal .modal-content .card-title {font-size: 1.15rem; font-style: italic; color: var(--heading-color); text-decoration: underline; font-size: 1rem; font-weight: 500; letter-spacing: 1px; text-transform: none; margin-bottom: 1rem;}
+#work .modal .modal-content .card-body {width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; justify-content: space-between;}
+#work .modal .modal-content .sub-sec {margin-bottom: 2rem; width: 30%; padding: 0rem;}
+#work .modal .modal-content .sub-sec img {margin-bottom: 1rem;}
+#work .modal .modal-content .sub-sec div {margin: 1.5rem 0;}
+#work .modal .modal-content .card-title {font-size: 1.15rem; color: var(--heading-color); text-decoration: underline; font-size: 1rem; font-weight: 500; letter-spacing: 1px; text-transform: none; margin-bottom: 1.5rem;}
 #work .modal .modal-content h6 {margin-bottom: 0; text-transform: uppercase; font-weight: 700; font-size: 0.8rem; letter-spacing: 0; color: var(--subhead-color);}
-#work .modal .modal-content .card-text {color: var(--body-color); font-weight: 300;}
+#work .modal .modal-content .card-text {color: var(--body-color); font-weight: 300; font-size: 0.9rem;}
 #work .modal .modal-content .card ul {padding: 0 1rem; list-style: circle; list-style-type: disclosure-closed;}
 #work .modal .modal-content .card li {font-weight: 300; margin: 0.35rem 0;}
 #work .modal .modal-footer {border: none; padding: 2rem; -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); background: var(--modal-bg);}
+#work .modal .btn-outline-dark {margin: 2rem 0.5rem 0.5rem; font-weight: 500; transition: linear .25s; text-transform: uppercase; letter-spacing: 2px; margin-top: 1rem; border-color: var(--btn-outline); color: var(--btn-color);}
+#work .modal .btn:hover {color: var(--btn-active-color); background-color: var(--btn-active-bg); border-color: var(--btn-active-outline);}
 
 /************* reviews frame ********************/
 #reviews {background-image: var(--bg-image); background-size: cover; background-attachment: fixed;}
@@ -231,11 +234,24 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 #reviews .card {width: 70%; margin: 4rem auto; border: 1px solid transparent; background: var(--card-bg); border-image: var(--card-border); backdrop-filter: blur(36px); border-radius: 0; height: auto; padding: 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-content: space-between; justify-content: center;}
 #reviews img {width: 30%; float: left; margin-right: 2rem;}
 #reviews .card-body {width: 65%;}
-#reviews .card-header {background: transparent; border: none; padding: 0.5rem 0; font-size: 1.15rem; font-weight: 700; color: var(--heading-color); text-transform: uppercase; font-style: italic; letter-spacing: 3px;}
+#reviews .card-header {background: transparent; border: none; padding: 0.5rem 0; font-size: 1.15rem; font-weight: 700; color: var(--heading-color); text-transform: uppercase; letter-spacing: 3px;}
 #reviews .card-title {font-size: 1rem; letter-spacing: 1px; padding: 0; margin-bottom: 2rem; color: var(--subhead-color);}
 #reviews .card-text {color: var(--body-color); font-weight: 300;}
 #reviews .star-rating {margin-top: 1.5rem;}
 #reviews .star-rating img {margin: 0.375rem; width: 1.5rem;}
+
+/************* cv ********************/
+
+#cv {background-color: var(--bg-color);}
+#cv ul {width: 70%; margin: auto;}
+#cv ul h3 {font-size: 1.5rem; letter-spacing: 5px; margin-bottom: 3rem; border-bottom: 1px solid; padding: 1rem 0; font-weight: 800; color: var(--heading-color);}
+#cv li {display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; justify-content: flex-start; align-items: flex-start; margin: 2rem 0;}
+#cv .cv-sec-title {width: 30%; text-transform: uppercase;}
+#cv .cv-sec-title h4 {font-size: 1rem; font-weight: 800; color: var(--heading-color);}
+#cv .cv-sec-body {width: 70%; border: none; background: none;}
+#cv .cv-sec-body .card-header {font-size: 1rem; font-weight: 600; border: none; background: transparent; padding: 0 1rem; color: var(--heading-color);}
+#cv .cv-sec-body .card-text {color: var(--body-color);}
+#cv .cv-sec-body h6 {font-size: 0.8rem; color: var(--body-color);}
 
 /************* contact frame ********************/
 #contact {background-color: var(--bg-color); text-align: center; display: flex; flex-direction: column; flex-wrap: wrap; align-content: center; align-items: center; justify-content: space-between; }
