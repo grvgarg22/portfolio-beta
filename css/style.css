@@ -123,8 +123,8 @@ a {text-decoration: none;}
 .section-title span {border: none; padding: 0.5rem 0;}
 footer {background-color: var(--secondary-bg-color); text-align: center; padding: .75rem 1rem;}
 footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
-.subhead {font-size: 1rem; margin-bottom: 1rem; color: var(--subhead-color); font-weight: 500; line-height: 1.6; text-decoration: underline; letter-spacing: 1px;}
-.d-btn {text-align: left; padding: 0.5rem 1rem; letter-spacing: 1px; float: left; margin: 1rem 1rem 0 0; border-color: var(--btn-outline); color: var(--btn-color); font-size: 0.9rem; display: flex; align-content: center; justify-content: center; align-items: center;}
+.subhead {font-size: 0.8rem; margin-bottom: 1.5rem; color: var(--subhead-color); font-weight: 500; line-height: 1.6; font-style: italic;}
+.d-btn {text-align: left; padding: 0.5rem 1rem; float: left; margin: 1rem 1rem 0 0; border-color: var(--btn-outline); color: var(--btn-color); font-size: 0.9rem; display: flex; align-content: center; justify-content: center; align-items: center;}
 .d-btn:hover, .d-btn:active, .d-btn:focus {color: var(--btn-active-color); background-color: var(--btn-active-bg); border-color: var(--btn-active-outline);}
 
 /******* Hero frame ********************/
@@ -160,7 +160,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 #about .card {border: none;}
 #about .card .card-img-top {border-radius: 0; position: relative;}
 #about .card .card-img-overlay {position: absolute; top: 0; bottom: 0; right: 0; left: 0; border-radius: 0; background: var(--about-gradient);}
-#about .card-body {padding: 10rem 4rem;}
+#about .card-body {padding: 5rem 2rem;}
 #about .card-body .card-text, #about li{font-weight: 300; line-height: 1.8;}
 #about .card-body .card-text {margin-bottom: 1.5rem; color: var(--body-color);}
 #about h5 {color: var(--subhead-color); font-weight: 700;}
@@ -182,8 +182,8 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 /********** skills frame *****************/
 #skills {background-image: var(--bg-image); /* background-image: linear-gradient(225deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);*/ background-size: cover; background-attachment: fixed;}
 #skills:after {position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.76); }
-#skills .row {width: 95%; margin: auto;}
-#skills .card {width: 90%; border: 1px solid transparent; margin: 1.5rem auto; padding: 3rem 1.5rem; background: var(--card-bg); border-image: var(--card-border); backdrop-filter: blur(36px); border-radius: 0;}
+#skills .row {width: 100%; margin: auto;}
+#skills .card {width: 100%; border: 1px solid transparent; margin: 1.5rem auto; padding: 3rem 1.5rem; background: var(--card-bg); border-image: var(--card-border); backdrop-filter: blur(36px); border-radius: 0;}
 #skills .card .card-head {display: flex; flex-direction: column; flex-wrap: wrap; justify-content: flex-start; align-items: center; align-content: space-around; margin-bottom: 1rem;}
 #skills .card .card-title { font-weight: 700; color: var(--heading-color); font-size: 1.2rem; margin: 0; text-transform: uppercase; letter-spacing: 1px;}
 #skills .card .card-body {padding: 1rem;}
@@ -195,11 +195,11 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 /************** work frame *********************/
 #work {background-color: var(--bg-color);}
 #work.section {padding: 8rem 2rem 4rem;}
-#work .row {width: 80%; margin: 0 auto; padding: 2rem 0;}
+#work .row {width: 90%; margin: 0 auto; padding: 2rem 0;}
 #work .row .card { border: none; background-color: transparent; margin: 2rem; padding: 0.5rem; transition: linear 500ms; border-radius: 0; display: flex; justify-content: space-evenly; align-items: flex-start; flex-wrap: nowrap; flex-direction: column;}
 #work .row .card .card-body {padding: 0rem 0 0.5rem 0; margin: 1rem;}
 #work .row .card>a { text-decoration: none; transition: linear 0.5s; margin: 1rem;}
-#work .row .card .card-title {font-size: 1.15rem; font-weight: 700; color: var(--heading-color); text-transform: uppercase; letter-spacing: 3px;}
+#work .row .card .card-title {font-size: 1.25rem; font-weight: 700; color: var(--heading-color); text-transform: uppercase;}
 #work .row .card p { color: var(--body-color); font-weight: 300;}
 
 #work .modal.fade {-webkit-backdrop-filter: blur(23px); backdrop-filter: blur(23px);}
@@ -217,11 +217,11 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 #work .modal .modal-content .sub-sec {margin-bottom: 2rem; width: 30%; padding: 0rem;}
 #work .modal .modal-content .sub-sec img {margin-bottom: 1rem;}
 #work .modal .modal-content .sub-sec div {margin: 1.5rem 0;}
-#work .modal .modal-content .card-title {font-size: 1.15rem; color: var(--heading-color); text-decoration: underline; font-size: 1rem; font-weight: 500; letter-spacing: 1px; text-transform: none; margin-bottom: 1.5rem;}
-#work .modal .modal-content h6 {margin-bottom: 0; text-transform: uppercase; font-weight: 700; font-size: 0.8rem; letter-spacing: 0; color: var(--subhead-color);}
-#work .modal .modal-content .card-text {color: var(--body-color); font-weight: 300; font-size: 0.9rem;}
+#work .modal .modal-content .card-title {font-size: 1rem; color: var(--heading-color); text-decoration: underline; font-weight: 500; text-transform: none; margin-top: 1.5rem;}
+#work .modal .modal-content h6 {margin-bottom: 0.5rem; text-transform: uppercase; font-weight: 700; font-size: 0.8rem; letter-spacing: 0; color: var(--subhead-color);}
+#work .modal .modal-content .card-text {color: var(--body-color); font-weight: 300; font-size: 1rem;}
 #work .modal .modal-content .card ul {padding: 0 1rem; list-style: circle; list-style-type: disclosure-closed;}
-#work .modal .modal-content .card li {font-weight: 300; margin: 0.35rem 0;}
+#work .modal .modal-content .card li {font-weight: 300; margin: 1rem 0;}
 #work .modal .modal-footer {border: none; padding: 2rem; -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); background: var(--modal-bg);}
 #work .modal .btn-outline-dark {margin: 2rem 0.5rem 0.5rem; font-weight: 500; transition: linear .25s; text-transform: uppercase; letter-spacing: 2px; margin-top: 1rem; border-color: var(--btn-outline); color: var(--btn-color);}
 #work .modal .btn:hover {color: var(--btn-active-color); background-color: var(--btn-active-bg); border-color: var(--btn-active-outline);}
@@ -232,19 +232,20 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 #reviews .carousel .carousel-indicators {bottom: -2rem;}
 #reviews .carousel .carousel-indicators button {background-color: var(--subhead-color);}
 #reviews .card {width: 70%; margin: 4rem auto; border: 1px solid transparent; background: var(--card-bg); border-image: var(--card-border); backdrop-filter: blur(36px); border-radius: 0; height: auto; padding: 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-content: space-between; justify-content: center;}
-#reviews img {width: 30%; float: left; margin-right: 2rem;}
-#reviews .card-body {width: 65%;}
-#reviews .card-header {background: transparent; border: none; padding: 0.5rem 0; font-size: 1.15rem; font-weight: 700; color: var(--heading-color); text-transform: uppercase; letter-spacing: 3px;}
-#reviews .card-title {font-size: 1rem; letter-spacing: 1px; padding: 0; margin-bottom: 2rem; color: var(--subhead-color);}
+#reviews .card-img {width: 35%; float: left; margin-right: 1rem;}
+#reviews .card-img img {border-radius: 0;}
+#reviews .card-body {width: 60%;}
+#reviews .card-header {background: transparent; border: none; padding: 0.5rem 0; font-size: 1.15rem; font-weight: 700; color: var(--heading-color); text-transform: uppercase;}
+#reviews .card-title {font-size: 0.8rem; font-style: italic; padding: 0; margin-bottom: 1rem; color: var(--heading-color); font-weight: 300;}
 #reviews .card-text {color: var(--body-color); font-weight: 300;}
-#reviews .star-rating {margin-top: 1.5rem;}
+#reviews .star-rating {margin-top: 0.5rem;}
 #reviews .star-rating img {margin: 0.375rem; width: 1.5rem;}
 
 /************* cv ********************/
 
-#cv {background-color: var(--bg-color);}
+#cv {background-color: var(--secondary-bg-color);}
 #cv ul {width: 70%; margin: auto;}
-#cv ul h3 {font-size: 1.5rem; letter-spacing: 5px; margin-bottom: 3rem; border-bottom: 1px solid; padding: 1rem 0; font-weight: 800; color: var(--heading-color);}
+#cv ul h3 {font-size: 1.5rem; font-style: italic; margin-bottom: 3rem; border-bottom: 1px solid; padding: 1rem 0; font-weight: 800; color: var(--heading-color);}
 #cv li {display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; justify-content: flex-start; align-items: flex-start; margin: 2rem 0;}
 #cv .cv-sec-title {width: 30%; text-transform: uppercase;}
 #cv .cv-sec-title h4 {font-size: 1rem; font-weight: 800; color: var(--heading-color);}
@@ -316,4 +317,15 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
   
 }
 
+
+@media only screen and (min-width: 1440px) { 
+
+  #work .row {width: 80%;}
+  #services .row {width: 80%;}
+  #skills .row {width: 90%;}
+  #skills .card {width: 90%;}
+  #reviews .card {width: 60%;}
+  #about .card-body {padding: 10rem 4rem;}
+
+}
 /*# sourceMappingURL=style.css.map */
