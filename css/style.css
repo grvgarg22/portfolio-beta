@@ -300,8 +300,10 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
   .modal-header .btn-close {position: absolute; top: 1rem; right: 1rem;}
 
   #reviews .card {width: 90%; margin: 2rem auto; padding: 1rem; height: 33rem;}
-  #reviews .card > .card-img-top {width: 100%; float: left; margin-right: 0; display: none;}
+  #reviews .card > .card-img {width: 100%; float: left; margin-right: 0; display: none;}
   #reviews .carousel .carousel-indicators {bottom: -3rem;}
+
+  #cv ul {width: 100%; margin: auto; padding: 1rem;}
 
 }
 
