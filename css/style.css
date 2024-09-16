@@ -300,7 +300,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
   #work .row .card .btn {font-size: 0.75rem; letter-spacing: 0; padding: 0.5rem 0.75rem;}
   .modal-header .btn-close {position: absolute; top: 1rem; right: 1rem;}
 
-  #reviews .card {width: 90%; margin: 2rem auto; padding: 1rem; height: 33rem;}
+  #reviews .card {width: 90%; margin: 2rem auto; padding: 1rem; height: 30rem;}
   #reviews .card .card-img {width: 100%; float: left; margin-right: 0; display: none;}
   #reviews .carousel .carousel-indicators {bottom: -3rem;}
 
