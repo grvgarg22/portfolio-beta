@@ -305,6 +305,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
   #reviews .carousel .carousel-indicators {bottom: -3rem;}
 
   #cv ul {width: 100%; margin: auto; padding: 1rem;}
+  #cv ul h3 {font-size: 1rem;}
 
 }
 
