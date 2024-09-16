@@ -280,6 +280,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
   #hero .btn-outline-dark {font-size: 0.7rem; padding: .5rem 0.7rem; margin: 2rem 0.5rem 0.5rem;}
   #hero .scroll {bottom: 3rem;}
   
+  #about .about-image {padding: 0;}
   #about .card-body {padding: 5rem 2rem;}
 
   .section {padding: 5rem 1rem;}
