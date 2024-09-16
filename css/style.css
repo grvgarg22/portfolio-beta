@@ -223,7 +223,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 #work .modal .modal-content .card ul {padding: 0 1rem; list-style: circle; list-style-type: disclosure-closed;}
 #work .modal .modal-content .card li {font-weight: 300; margin: 1rem 0;}
 #work .modal .modal-footer {border: none; padding: 2rem; -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); background: var(--modal-bg);}
-#work .modal .btn-outline-dark {margin: 2rem 0.5rem 0.5rem; font-weight: 500; transition: linear .25s; text-transform: uppercase; letter-spacing: 2px; margin-top: 1rem; border-color: var(--btn-outline); color: var(--btn-color);}
+#work .modal .btn-outline-dark {margin: 1rem 0.5rem 0.5rem; font-weight: 500; transition: linear .25s; text-transform: uppercase; letter-spacing: 2px; border-color: var(--btn-outline); color: var(--btn-color); font-size: 0.8rem; padding: 0.35rem 1rem;}
 #work .modal .btn:hover {color: var(--btn-active-color); background-color: var(--btn-active-bg); border-color: var(--btn-active-outline);}
 
 /************* reviews frame ********************/
