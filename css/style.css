@@ -298,7 +298,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
   #work .row .card>a {margin: 1rem 0;}
   #work .row .card .card-body {margin: 1rem 0;}
   #work .row .card .btn {font-size: 0.75rem; letter-spacing: 0; padding: 0.5rem 0.75rem;}
-  .modal-header .btn-close {position: absolute; top: 1rem; right: 1rem;}
+  #work .modal-header .btn-close {position: absolute; top: 1rem; right: 1rem;}
   #work .modal .modal-content .row {padding: 0;}
   #work .modal .modal-content .modal-header {padding: 1rem;}
   #work .modal .modal-content .modal-header > div {display: none;}
@@ -329,11 +329,40 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1023px) { 
-  
+  nav .theme-switch-wrapper {right: 8rem;}
+
+  .about-image {padding: 0;}
+  #services img {width: 25%;}
+  #work .row {width: 100%; padding: 0;}
+  #work .row .card {margin: 0rem 1rem 2rem 1rem;}
+  #reviews .card {width: 85%;}
+  #reviews .card-img {display: none;}
+
+  .modal.show .modal-dialog {max-width: 90%;}
+  #work .modal-header .btn-close {position: absolute; top: 1rem; right: 1rem;}
+  #work .modal .modal-content .row {padding: 0;}
+  #work .modal .modal-content .modal-header {padding: 1rem;}
+  #work .modal .modal-content .modal-header > div {display: none;}
+  #work .modal .modal-content .card-header {padding: 0.5rem 1rem;}
+  #work .modal .modal-content .sub-sec {width: 45%;}
+  #work .modal .section-title {font-size: 1.5rem;}
+  #work .modal .modal-footer {padding: 1rem;}
+  #work .modal .btn-outline-dark {margin: 0.5rem; font-size: 0.8rem;}
+
+  #cv ul {width: 100%;}
+
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1365px) { 
   
+  #services .row {width: 100%;}
+  #services .card {height: 42rem;}
+  #services .card .card-title {text-align: center;}
+  #work .row {width: 100%;}
+  #work .row .card {margin: 0;}
+  #reviews .card {width: 90%;}
+  .modal.show .modal-dialog {max-width: 90%;}
+
 }
 
 
