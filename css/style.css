@@ -359,7 +359,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
   #services .card {height: 42rem;}
   #services .card .card-title {text-align: center;}
   #work .row {width: 100%;}
-  #work .row .card {margin: 0;}
+  #work .row .card {margin: 2rem 0;}
   #reviews .card {width: 90%;}
   .modal.show .modal-dialog {max-width: 90%;}
 
