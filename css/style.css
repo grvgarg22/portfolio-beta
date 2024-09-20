@@ -1,4 +1,4 @@
-[data-theme="light"] {
+:root {
   --theme-slider: #222;
   --theme-slider-checkbox: #e0e0e0;
   --logo: url(../img/logo_light.svg);
@@ -29,7 +29,7 @@
   --border-color: #999;
 }
 
-:root {
+[data-theme="dark"] {
   --theme-slider: #e0e0e0;
   --theme-slider-checkbox: #222;
   --logo: url(../img/logo.svg);
