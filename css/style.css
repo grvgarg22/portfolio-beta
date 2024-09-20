@@ -1,4 +1,4 @@
-:root {
+[data-theme="light"] {
   --theme-slider: #222;
   --theme-slider-checkbox: #e0e0e0;
   --logo: url(../img/logo_light.svg);
@@ -29,7 +29,7 @@
   --border-color: #999;
 }
 
-[data-theme="dark"] {
+:root {
   --theme-slider: #e0e0e0;
   --theme-slider-checkbox: #222;
   --logo: url(../img/logo.svg);
@@ -251,7 +251,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 #cv ul h3 {font-size: 1rem; margin-bottom: 3rem; border-bottom: 1px solid var(--border-color); padding: 1rem 0; font-weight: 800; letter-spacing: 2px; color: var(--border-color);}
 #cv li {display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; justify-content: flex-start; align-items: flex-start; margin: 2rem 0;}
 #cv .cv-sec-title {width: 30%; text-transform: uppercase;}
-#cv .cv-sec-title h4 {font-size: 0.9rem; font-weight: 600; color: var(--heading-color); margin: 0.3rem 0;}
+#cv .cv-sec-title h4 {font-size: 0.9rem; font-weight: 800; color: var(--heading-color); margin: 0.25rem 0; text-transform: capitalize;}
 #cv .cv-sec-body {width: 70%; border: none; background: none;}
 #cv .cv-sec-body .card-header {font-size: 1rem; font-weight: 600; border: none; background: transparent; padding: 0 1rem; color: var(--heading-color);}
 #cv .cv-sec-body .card-text {color: var(--body-color);}
@@ -285,7 +285,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
   #hero .scroll {bottom: 3rem;}
   
   #about .about-image {padding: 0;}
-  #about .card-body {padding: 5rem 2rem;}
+  #about .card-body {padding: 5rem 1rem;}
 
   .section {padding: 5rem 1rem;}
   .section-title {font-size: 1.5rem; margin-bottom: 2rem; padding: 0;}
