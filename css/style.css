@@ -26,6 +26,7 @@
   --modal-border: #fff;
   --card-bg: rgb(255 255 255 / 40%);
   --card-border: linear-gradient(to top left, #ffffffc9 0%, #ffa9fa00 50%, #ffffffc9) 1; 
+  --border-color: #999;
 }
 
 [data-theme="dark"] {
@@ -56,6 +57,7 @@
   --modal-border: #333;
   --card-bg: rgb(127 127 127 / 8%);
   --card-border: linear-gradient(to top left, #c5c5c57d 0%, #ffa9fa00 50%, #c5c5c57d) 1;
+  --border-color: #555;
 }
 
 
@@ -246,14 +248,14 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 
 #cv {background-color: var(--secondary-bg-color);}
 #cv ul {width: 70%; margin: auto;}
-#cv ul h3 {font-size: 1.5rem; font-style: italic; margin-bottom: 3rem; border-bottom: 1px solid; padding: 1rem 0; font-weight: 800; color: var(--heading-color);}
+#cv ul h3 {font-size: 1rem; margin-bottom: 3rem; border-bottom: 1px solid var(--border-color); padding: 1rem 0; font-weight: 400; letter-spacing: 2px; color: var(--border-color);}
 #cv li {display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; justify-content: flex-start; align-items: flex-start; margin: 2rem 0;}
 #cv .cv-sec-title {width: 30%; text-transform: uppercase;}
-#cv .cv-sec-title h4 {font-size: 1rem; font-weight: 800; color: var(--heading-color);}
+#cv .cv-sec-title h4 {font-size: 1rem; font-weight: 600; color: var(--heading-color);}
 #cv .cv-sec-body {width: 70%; border: none; background: none;}
 #cv .cv-sec-body .card-header {font-size: 1rem; font-weight: 600; border: none; background: transparent; padding: 0 1rem; color: var(--heading-color);}
 #cv .cv-sec-body .card-text {color: var(--body-color);}
-#cv .cv-sec-body h6 {font-size: 0.8rem; color: var(--body-color);}
+#cv .cv-sec-body h6 {font-size: 0.8rem; color: var(--border-color); font-weight: 400;}
 
 /************* contact frame ********************/
 #contact {background-color: var(--bg-color); text-align: center; display: flex; flex-direction: column; flex-wrap: wrap; align-content: center; align-items: center; justify-content: space-between; }
