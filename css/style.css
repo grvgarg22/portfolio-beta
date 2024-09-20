@@ -249,7 +249,8 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 #cv {background-color: var(--secondary-bg-color);}
 #cv ul {width: 70%; margin: auto;}
 #cv ul h3 {font-size: 1rem; margin-bottom: 3rem; border-bottom: 1px solid var(--border-color); padding: 1rem 0; font-weight: 800; letter-spacing: 2px; color: var(--border-color);}
-#cv li {display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; justify-content: flex-start; align-items: flex-start; margin: 2rem 0;}
+#cv li {list-style-type: none;}
+#cv li > div{display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; justify-content: flex-start; align-items: flex-start; margin: 2rem 0;}
 #cv .cv-sec-title {width: 30%; text-transform: uppercase;}
 #cv .cv-sec-title h4 {font-size: 0.9rem; font-weight: 800; color: var(--heading-color); margin: 0.25rem 0; text-transform: capitalize;}
 #cv .cv-sec-body {width: 70%; border: none; background: none;}
