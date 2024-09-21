@@ -60,32 +60,14 @@
   --border-color: #555;
 }
 
-
-.animatable {
-  /* initially hide animatable objects */
-  visibility: hidden;
-
-  /* initially pause animatable objects their animations */
-  animation-play-state: paused;
-}
-
+.animatable {/* initially hide animatable objects */ visibility: hidden; /* initially pause animatable objects their animations */  animation-play-state: paused;}
 /* show objects being animated */
-.animated {
-  visibility: visible;
-  animation-fill-mode: both;
-  animation-duration: 1s;
-  animation-play-state: running;
-}
+.animated {visibility: visible; animation-fill-mode: both; animation-duration: 1s; animation-play-state: running;}
 
 .bar1, .bar2, .bar3 {width: 25px; height: 3px; background-color: var(--btn-active-bg); margin: 6px 0; transition: 0.4s; border-radius: 1rem;}
-
 .change .bar1 {transform: translate(0, 9px) rotate(-45deg);}
-
 .change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
-}
+.change .bar3 {transform: translate(0, -11px) rotate(45deg);}
 
 nav .theme-switch-wrapper {position:absolute; right: 4rem; top: 1.75rem;}
 nav .theme-switch-wrapper .theme-switch {display: inline-block; height: 25px; position: relative; width: 52px;}
@@ -93,15 +75,15 @@ nav .theme-switch-wrapper .theme-switch input {display:none;}
 nav .theme-switch-wrapper .slider {background-color: var(--theme-slider); bottom: 0; cursor: pointer; left: 0; position: absolute; right: 0; top: 0; transition: .4s;}
 nav .theme-switch-wrapper .slider:before {background-color: var(--theme-slider-checkbox); bottom: 4px; content: ""; height: 18px; left: 4px; position: absolute; transition: .4s; width: 18px;}
 nav .theme-switch-wrapper input:checked + .slider:before {transform: translateX(26px);}
-nav .theme-switch-wrapper .slider.round {border-radius: 4px;}
-nav .theme-switch-wrapper .slider.round:before {border-radius: 10%;}
+nav .theme-switch-wrapper .slider.round {border-radius: 2rem;}
+nav .theme-switch-wrapper .slider.round:before {border-radius: 2rem;}
 
 @keyframes hue-rotate { 0% { filter: hue-rotate(0deg); }
   100% { filter: hue-rotate(360deg); } }
 
 /*********** Misc code **********************/
 html {scroll-behavior: smooth;}
-body { font-family: "Poppins", sans-serif; line-height: 1.6;}
+body {font-family: "Poppins", sans-serif; line-height: 1.6;}
 .container-fluid { padding: 0; }
 a {text-decoration: none;}
 .theme-color { background: linear-gradient(270deg, #b7c2ff 0%, #ffacf9 46%, #ffdfa5 100%); background-size: 200% auto; background-clip: text; -webkit-background-clip: text; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: hue-rotate 2.5s linear infinite both; }
@@ -116,7 +98,7 @@ a {text-decoration: none;}
 .navbar .navbar-brand div {background-image: var(--logo); width: 4rem; height: 4rem; margin: 0.5rem; background-size: cover;}
 .navbar .navbar-nav { margin: 0rem auto; text-align: center;}
 .navbar .navbar-nav .nav-item {margin: 0 1rem; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; text-align: center;}
-.navbar .navbar-nav .nav-link {color: var(--nav-link); text-transform: uppercase; font-weight: 400; padding: .5rem 1.25rem; transition: linear 0.5s;}
+.navbar .navbar-nav .nav-link {color: var(--nav-link); text-transform: uppercase; font-weight: 500; padding: .5rem 1.25rem; transition: linear 0.5s;}
 .navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:active {color: var(--nav-link-active);}
 .navbar .btn {font-size: 14px; font-weight: 300; padding: 0.35rem 1.25rem; text-transform: uppercase; font-weight: 500; letter-spacing: 2px; border-color: var(--btn-outline); color: var(--btn-color);}
 .navbar .btn:active, .navbar .btn:hover {color: var(--btn-active-color); background-color: var(--btn-active-bg); border-color: var(--btn-active-outline);}
@@ -125,8 +107,8 @@ a {text-decoration: none;}
 .section-title span {border: none; padding: 0.5rem 0;}
 footer {background-color: var(--secondary-bg-color); text-align: center; padding: .75rem 1rem;}
 footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
-.subhead {font-size: 0.8rem; margin-bottom: 1.5rem; color: var(--subhead-color); font-weight: 500; line-height: 1.6; font-style: italic;}
-.d-btn {text-align: left; padding: 0.5rem 1rem; float: left; margin: 1rem 1rem 0 0; border-color: var(--btn-outline); color: var(--btn-color); font-size: 0.9rem; display: flex; align-content: center; justify-content: center; align-items: center;}
+.subhead {font-size: 0.85rem; margin-bottom: 1.5rem; color: var(--subhead-color); font-weight: 500; line-height: 1.6;}
+.d-btn {text-align: left; padding: 0.5rem 1rem; float: left; margin: 1rem 1rem 0 0; border-radius: 2rem; border-color: var(--btn-outline); color: var(--btn-color); font-size: 0.9rem; display: flex; align-content: center; justify-content: center; align-items: center;}
 .d-btn:hover, .d-btn:active, .d-btn:focus {color: var(--btn-active-color); background-color: var(--btn-active-bg); border-color: var(--btn-active-outline);}
 
 /******* Hero frame ********************/
@@ -138,15 +120,15 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 #hero .card .card-img-top {width: 15rem; height: 15rem; border-radius: 1.5rem; border: 4px solid #fff;}
 #hero .card-text:first-child {margin : 2rem 0 0;}
 #hero .card-text {color: var(--heading-color); font-weight: 200; font-size: 3rem; letter-spacing: -1px;}
-#hero .card-text span {font-weight: 900; text-transform: uppercase;}
+#hero .card-text span {font-weight: 800; text-transform: uppercase;}
 #hero .section-text {margin-top: 1rem; color: #888; font-size: 1.1rem;}
-#hero .btn-outline-dark { font-size: 1rem; padding: .5rem 1.5rem; margin: 2rem 0.5rem 0.5rem; font-weight: 500; transition: linear .25s; text-transform: uppercase; letter-spacing: 2px; margin-top: 1rem; border-color: var(--btn-outline); color: var(--btn-color);}
+#hero .btn-outline-dark {font-size: 1rem; padding: .5rem 1.5rem; margin: 2rem 0.5rem 0.5rem; font-weight: 500; border-radius: 2rem; transition: linear .25s; text-transform: uppercase; letter-spacing: 2px; margin-top: 1rem; border-color: var(--btn-outline); color: var(--btn-color);}
 #hero .btn:active, #hero .btn.active, #hero .btn:hover {color: var(--btn-active-color); background-color: var(--btn-active-bg); border-color: var(--btn-active-outline);}
 #hero .card-img {width: 70%;}
 #hero .dual-strip {position: absolute; top: 0; bottom:60%; z-index: 900; display: flex; box-shadow: 1px 1px 21px -5px rgb(0 0 0 / 40%);}
 #hero .strip-light {width: 80px; border-bottom-left-radius: 1rem; /*background-color: rgb(102 102 102 / 50%);*/ background: linear-gradient(225deg, #b7c2ff 0%, #ffacf9 46%, #ffdfa5 100%); border-right: 2px solid #fff; animation: hue-rotate 2.5s linear infinite both; opacity: 0.9;}
 #hero .strip-dark {width: 80px; border-bottom-right-radius: 1rem; background-color: var(--hero-strip-bg); border-left: 2px solid #fff; -webkit-backdrop-filter: blur(36px); backdrop-filter: blur(36px);}
-#hero .scroll {text-align: center; font-size: 8px; letter-spacing: 1px; text-transform: uppercase; position: absolute; bottom: 2rem; color: var(--body-color);}
+#hero .scroll {text-align: center; font-size: 0.5rem; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; position: absolute; bottom: 2rem; color: var(--body-color);}
 #hero .scroll-icon div {background-image: var(--logo); width: 3rem; height: 3rem; background-size: cover; margin: 0.5rem auto; -webkit-transform: rotate(0deg); transform: rotate(0deg);  -webkit-animation: sdb 2s infinite; animation: sdb 2s infinite; box-sizing: border-box;}
 @keyframes sdb {
   0% {transform: rotate(360deg) translate(0, 0);}
@@ -220,13 +202,13 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 #work .modal .modal-content .sub-sec {margin-bottom: 2rem; width: 30%; padding: 0rem;}
 #work .modal .modal-content .sub-sec img {margin-bottom: 1rem;}
 #work .modal .modal-content .sub-sec div {margin: 1.5rem 0;}
-#work .modal .modal-content .card-title {font-size: 1rem; color: var(--heading-color); text-decoration: underline; font-weight: 500; text-transform: none; margin-top: 1.5rem;}
+#work .modal .modal-content .card-title {font-size: 1rem; color: var(--heading-color); font-weight: 600; text-transform: none; margin-top: 1.5rem;}
 #work .modal .modal-content h6 {margin-bottom: 0.5rem; text-transform: uppercase; font-weight: 700; font-size: 0.8rem; letter-spacing: 0; color: var(--subhead-color);}
 #work .modal .modal-content .card-text {color: var(--body-color); font-weight: 300; font-size: 1rem;}
 #work .modal .modal-content .card ul {padding: 0 1rem; list-style: circle; list-style-type: disclosure-closed;}
 #work .modal .modal-content .card li {font-weight: 300; margin: 1rem 0;}
 #work .modal .modal-footer {border: none; padding: 2rem; -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); background: var(--modal-bg);}
-#work .modal .btn-outline-dark {margin: 1rem 0.5rem 0.5rem; font-weight: 500; transition: linear .25s; text-transform: uppercase; letter-spacing: 2px; border-color: var(--btn-outline); color: var(--btn-color); font-size: 0.8rem; padding: 0.35rem 1rem;}
+#work .modal .btn-outline-dark {margin: 1rem 0.5rem 0.5rem; font-weight: 500; transition: linear .25s; text-transform: uppercase; letter-spacing: 2px; border-radius: 2rem; border-color: var(--btn-outline); color: var(--btn-color); font-size: 0.8rem; padding: 0.35rem 1rem;}
 #work .modal .btn:hover {color: var(--btn-active-color); background-color: var(--btn-active-bg); border-color: var(--btn-active-outline);}
 
 /************* reviews frame ********************/
