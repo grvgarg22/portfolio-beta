@@ -333,7 +333,7 @@ footer p {color: var(--body-color); margin: 0; font-size: 0.8rem;}
 
 @media only screen and (min-width: 769px) and (max-width: 1023px) { 
   nav .theme-switch-wrapper {right: 8rem;}
-
+  .navbar .navbar-brand div {background-image: var(--logo); width: 3.5rem; height: 3.5rem; margin: 0.25rem;}
   .about-image {padding: 0;}
   #services img {width: 25%;}
   #work .row {width: 100%; padding: 0;}
