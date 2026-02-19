@@ -104,7 +104,7 @@ body {font-family: "Poppins", sans-serif; line-height: 1.6;}
 .container-fluid { padding: 0; }
 a {text-decoration: none;}
 .theme-color { background: linear-gradient(270deg, #b7c2ff 0%, #ffacf9 46%, #ffdfa5 100%); background-size: 200% auto; background-clip: text; -webkit-background-clip: text; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: hue-rotate 2.5s linear infinite both; }
-.partition { height: 2px; background: linear-gradient(225deg, #b7c2ff 0%, #ffacf9 46%, #ffdfa5 100%); /* background: linear-gradient(225deg, #444444 0%, #9f9f9f 100%);*/ -webkit-text-fill-color: transparent; animation: hue-rotate 2.5s linear infinite both; }
+.partition { height: 5px; background: linear-gradient(225deg, #b7c2ff 0%, #ffacf9 46%, #ffdfa5 100%); /* background: linear-gradient(225deg, #444444 0%, #9f9f9f 100%);*/ -webkit-text-fill-color: transparent; animation: hue-rotate 2.5s linear infinite both; }
 .partition-dark {height: 4px; background: #ffffff;}
 .pt-top {position: fixed; top: 0; z-index: 999; left: 0; right: 0;}
 .no-pad { padding: 0; }
